@@ -1,0 +1,99 @@
+/*ejercicio de mensajeria*/
+*{
+	font-family: 'Helvetica', cursive;
+	margin: 0;  
+	padding: 0;
+}
+body {
+	background: #ecf0f1;
+}
+header {
+	background: url("../img/dibujo.png");
+	background-color: #00c2a6;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+	#nombre{
+		padding-top: 100px;
+		padding-left: 200px;
+		padding-right: 0;
+		padding-bottom:  0;
+		color: white;
+		font-size: 40px;
+	}
+.navegacion nav {
+	background: rgba(0, 0, 0, 1);
+	text-align: center;
+}
+	nav li {
+		display: inline-block;
+		margin: 0 15px 0 15px;
+	}
+	nav a {
+		color: white;
+		margin: 0 15px 0 15px;
+	}
+.contenedor{
+	margin: auto;
+	width: 90%;
+}
+.post {
+	display: inline-block;
+	text-align: center;
+	margin-top: 30px;
+	width: 95%;
+}
+	.user{
+		display: inline-block;
+	}
+	.content{
+		display: inline-block;
+		background: #bdc3c7;
+		border-radius: 15px;
+		margin-left: 20px;
+		margin-top: 20px;
+		padding: 20px;
+		text-align: left;
+		vertical-align: top;
+		width: 70%;
+	}
+		.username{
+			color: #00c2a6;
+			font-weight: bold;
+			padding: 10px;
+			padding-left: 0;
+		}
+		.btn ul{
+			text-align: right;
+			margin-top: 10px;
+		}
+		.btn li{
+			display: inline-block;
+			margin-right: 5px;
+			text-align: right;
+			padding: 5px;
+		}
+
+			.like{
+				background-color: #61b2e5;
+			}
+
+			.dlike{
+				background-color: #e56161;
+			}
+
+			.favorito{
+				background-color: #e5e061;
+			}
+
+.fin{
+	background: #63c1a6;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+	.fin p {
+		color: white;
+		text-align: center;
+	}
